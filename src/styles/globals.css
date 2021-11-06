@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #12151F;
+}
+
+.iconheadcontainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 6rem;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  margin: 4rem;
+}
+
+.iconhead {
+  color: #05F4B7;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

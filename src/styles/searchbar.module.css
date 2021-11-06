@@ -1,0 +1,21 @@
+.searchbar {
+    background: #374151;
+    color: #F3F4F6;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    width: 500px;
+    outline: 2px solid #05F4B7;
+}
+.searchbarcontainer {
+    margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.searchbar::placeholder {
+    color: #05F4B7;
+}
